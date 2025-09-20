@@ -1,0 +1,51 @@
+.title {
+    margin-top: 90px;
+    width: fit-content;
+    font-size: 80px;
+    justify-self: center;
+    font-family: Arial;
+}
+
+.pblock {
+    margin-top: 50px;
+    width: 80%;
+    justify-self: center;
+}
+
+.block {
+    width: 80%;
+    margin-block: 10px;
+    margin-inline: 0px;
+    display: block;
+    padding: 10px;
+}
+
+
+.question {
+    height: auto;
+    width: auto;
+    font-weight: bold;
+    font-family: Arial;
+    display: block;
+}
+
+.question:hover {
+    cursor: pointer;
+}
+
+
+.answer {
+    padding: 10px 0px 0px 10px;
+    font-weight: normal;
+    max-height: 500px;
+    width: 65%;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+
+
+    .answer {
+        width: 100%;
+    }
+
+}

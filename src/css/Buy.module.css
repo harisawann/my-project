@@ -1,0 +1,238 @@
+.buy {
+    margin-top: 120px;
+    display: flex;
+    height: auto;
+}
+
+.labeling {
+    border: 2px solid black;
+    margin-inline: 50px;
+    margin-block: 50px;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+.labeling p {
+    all: unset;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c757d;
+    font-weight: lighter;
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 7px;     
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;        
+}
+
+.country {
+    border: 1px solid lightgray;
+    display: block;
+    height: 40px;
+    width: 98%;
+    border-radius: 5px;
+    margin-block: 10px;
+    justify-self: center;
+}
+
+.name {
+    display: inline-flex;
+    width: 100%;
+    margin-block: 10px;
+}
+
+
+.address {
+    width: 100%;
+    margin-block: 10px;
+}
+
+.city {
+    width: 100%;
+    margin-block: 10px;
+    display: flex;
+}
+
+.no {
+    width: 100%;
+    margin-block: 10px;
+}
+
+input {
+    background-color: white;
+    color: black;
+    display: inline;
+    padding: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 96%;
+    border-radius: 5px;
+    margin-inline: 5px;
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.optionbox {
+    display: inline;
+    padding: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 96%;
+    border-radius: 5px;
+    margin-inline: 5px;
+    margin-block: 10px;
+    display: flex;
+    background-color: #caf0f846;
+    border: 1px solid #0077b6;
+    justify-content: space-between;
+}
+
+.cod {
+    display: inline;
+    padding: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 96%;
+    border-radius: 5px;
+    margin-inline: 5px;
+    margin-block: 10px;
+    display: flex;
+    background-color: #caf0f846;
+    border: 1px solid #0077b6;
+    align-self: center;
+}
+
+.bank {
+    display: inline;
+    padding: 5px;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 96%;
+    border-radius: 5px;
+    margin-inline: 5px;
+    margin-block: 10px;
+    display: flex;
+    background-color: #caf0f846;
+    border: 1px solid #0077b6;
+    justify-content: center;
+    text-align: center;
+}
+
+.order {
+    display: inline;
+    padding: 5px;
+    border: 1px solid lightgray;
+    height: 35px;
+    width: 96%;
+    border-radius: 5px;
+    margin-inline: 5px;
+    margin-block: 10px;
+    display: flex;
+    background-color: #1565c0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    align-items: center;
+    border: none;
+    justify-content: center;
+}
+
+.order:hover{
+    cursor: pointer;
+    background-color: #0d47a1;
+}
+
+.info {
+    border: 2px solid green;
+    margin-inline: 50px;
+    margin-block: 50px;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;    
+    background-color: lightgrey;
+}
+
+.detail{
+    margin-inline: 40px;
+    margin-block: 40px;
+    display: inline-flex;
+}
+
+.pic{    
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.title{
+    margin: 10px;
+    padding: 10px;     
+}
+
+.price{
+    margin: 10px; 
+    padding: 10px;     
+}
+
+@media (min-width:320px) and (max-width:767px)
+{
+
+    .buy{        
+        all: unset;
+        display: block;
+        
+    }
+
+
+    .labeling{
+        all: unset;
+        margin-inline: 5px;
+        display: block;
+    }
+
+
+    form{        
+        border: 2px solid black;
+        display: inline-block;
+    }
+
+    .name{        
+        margin-block: 0px;
+        input{
+            margin-inline: 2px;
+        }        
+    }
+
+    input{        
+        width:0 auto;
+        margin-inline: 0px;
+    }
+
+    .city{
+        display: block;
+    }
+
+    .cod{
+        width:0 auto;
+    }
+
+    .bank{
+        border: 2px solid red;
+        width: max-content;
+        display: inline;
+    }
+
+    .order{
+        width:0 auto;        
+        height: 45px;
+    }
+}
