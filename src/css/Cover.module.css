@@ -28,7 +28,7 @@
     display: block;
     margin: 5px;
     justify-content: center;
-overflow: hidden;
+    overflow: hidden;
 }
 
 .h4 p {
@@ -50,19 +50,23 @@ overflow: hidden;
     }
 }
 
-@media (min-width:320px) and (max-width:767px){
+@media (min-width:320px) and (max-width:767px) {
 
-.coverphoto{    
-    height: 300px;
-}
+    .coverphoto {
+        height: 300px;
+    }
 
-    .coverphoto p{
+    .coverphoto p {
         text-align: center;
         font-size: 60px;
     }
 
-    .h4 p{
-        font-size:large ;
+    .h4 p {
+        align-items: center;
+        font-family: Impact, Charcoal, sans-serif;
+        font-weight: bolder;
+        word-spacing: 5px;
+        font-size: xx-large;
         text-wrap: nowrap;
     }
 
